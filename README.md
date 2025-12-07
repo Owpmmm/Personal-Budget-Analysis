@@ -16,7 +16,7 @@ Project Overview
 - Used Power Query to unpivot the dataset into a tidy long format: Month | TransactionCategory | Amount
 - Saved the cleaned dataset as transactions.csv for use in SQL and Tableau
 ![Excel Clean Data](images/excel_clean_table.png)
-
+![Excel Transactions Chart](images/excel_chart.png)
 2. SQL Analysis (SQLite)
 The cleaned CSV was imported into a SQLite database (personal_budget.db).
 I used SQL to calculate monthly totals, category totals, and produce summary tables.
