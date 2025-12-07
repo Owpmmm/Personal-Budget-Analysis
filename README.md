@@ -15,6 +15,7 @@ Project Overview
 - Removed pivot output columns such as “Grand Total”
 - Used Power Query to unpivot the dataset into a tidy long format: Month | TransactionCategory | Amount
 - Saved the cleaned dataset as transactions.csv for use in SQL and Tableau
+![Excel Clean Data](images/excel_clean_table.png)
 
 2. SQL Analysis (SQLite)
 The cleaned CSV was imported into a SQLite database (personal_budget.db).
@@ -25,12 +26,14 @@ SELECT Month, SUM(ValueAmount) AS total_spent
 FROM transactions
 GROUP BY Month
 ORDER BY Month;
+![SQL Monthly Totals](images/sql_monthly_totals.png)
 
 - Total Spending per Category:
 SELECT TransactionCategory, SUM(ValueAmount) AS total_spent
 FROM transactions
 GROUP BY TransactionCategory
 ORDER BY total_spent DESC;
+![SQL Category Totals](images/sql_category_totals)
 
 - Monthly Summary Using a CTE:
 WITH monthly AS (
@@ -40,6 +43,7 @@ GROUP BY Month
 )
 SELECT *
 FROM monthly;
+![SQL Monthly Summary](sql_monthly_summary)
 
 All queries used are stored in sql_queries.txt.
 
@@ -49,7 +53,7 @@ I imported the cleaned CSV into Tableau Public and created three main visualizat
 - Spending by Category (bar chart)
 - Monthly Category Breakdown (stacked bar chart)
 These were combined into a single dashboard to display spending habits visually.
-
+![Tableau Dashboard](images/tableau_dashboard.png)
 Dashboard Link: https://public.tableau.com/views/PersonalBudgetAnalysisDashboard/PersonalBudgetDashboardExcelSQLTableau?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 Files Included:
