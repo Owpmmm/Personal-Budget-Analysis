@@ -43,7 +43,8 @@ GROUP BY Month
 )
 SELECT *
 FROM monthly;
-![SQL Monthly Summary](sql_monthly_summary.png)
+![SQL Monthly Summary](images/sql_monthly_summary.png)
+
 
 All queries used are stored in sql_queries.txt.
 
