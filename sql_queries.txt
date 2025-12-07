@@ -1,0 +1,26 @@
+1.Total spending per month
+SELECT Month,
+SUM(ValueAmount) AS total_spent
+FROM transactions
+GROUP BY Month
+ORDER BY Month;
+
+
+2. Total spending per category
+SELECT TransactionCategory,
+SUM(ValueAmount) AS total_spent
+FROM transactions
+GROUP BY TransactionCategory
+ORDER BY total_spent DESC;
+
+
+
+3. Monthly Summary
+WITH monthly AS ( SELECT Month,
+SUM(ValueAmount) AS total_spent
+FROM transactions
+GROUP BY Month)
+SELECT * 
+FROM monthly;
+
+
