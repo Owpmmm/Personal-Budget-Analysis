@@ -9,6 +9,13 @@ Tools Used:
 - Tableau Public – dashboards and visual analytics
 - GitHub – documentation and version control
 
+Key Skills Demonstrated:
+- Data cleaning and transformation
+- Power Query unpivoting and ETL basics
+- SQL aggregations, grouping, and CTEs
+- Tableau dashboard creation
+- End-to-end analytics workflow
+
 Project Overview
 1. Data Preparation (Excel)
 - Cleaned and organized raw monthly expense data
@@ -65,13 +72,6 @@ sql_queries.txt – All SQL queries used
 tableau_dashboard.twbx – Tableau workbook (optional if exported)
 / images – Screenshots of Excel, SQL results, and Tableau dashboard
 README.md – This documentation file
-
-Key Skills Demonstrated:
-- Data cleaning and transformation
-- Power Query unpivoting and ETL basics
-- SQL aggregations, grouping, and CTEs
-- Tableau dashboard creation
-- End-to-end analytics workflow
 
 Summary:
 - This project demonstrates my capability to complete data workflow: cleaning raw Excel data, transforming it into analyzable form, loading it into a database, writing SQL queries for insights, and visualizing results in Tableau.
