@@ -33,7 +33,7 @@ SELECT TransactionCategory, SUM(ValueAmount) AS total_spent
 FROM transactions
 GROUP BY TransactionCategory
 ORDER BY total_spent DESC;
-![SQL Category Totals](images/sql_category_totals)
+![SQL Category Totals](images/sql_category_totals.png)
 
 - Monthly Summary Using a CTE:
 WITH monthly AS (
@@ -43,7 +43,7 @@ GROUP BY Month
 )
 SELECT *
 FROM monthly;
-![SQL Monthly Summary](sql_monthly_summary)
+![SQL Monthly Summary](sql_monthly_summary.png)
 
 All queries used are stored in sql_queries.txt.
 
