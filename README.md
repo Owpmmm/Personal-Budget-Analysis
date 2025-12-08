@@ -3,13 +3,6 @@ Hello, this project is an end to end analysis of 12 months of my personal spendi
 
 From a technical perspective, this project was also a way for me to practice a real data analyst workflow from start to finish. I cleaned the raw data in Excel, reshaped it using Power Query, imported it into SQLite for SQL analysis, and then built visual dashboards in Tableau. The goal was to create a realistic, practical portfolio piece that demonstrates my ability to clean data, analyze it, and communicate insights visually using common industry tools.
 
-Tools Used:
-- Excel – data cleaning, formatting, and Power Query (unpivoting)
-- SQLite + DB Browser – database creation, CSV import, SQL queries
-- SQL – grouping, aggregations, CTEs
-- Tableau Public – dashboards and visual analytics
-- GitHub – documentation and version control
-
 Key Skills Demonstrated:
 - Data cleaning and transformation
 - Power Query unpivoting and ETL basics
@@ -64,6 +57,13 @@ I imported the cleaned CSV into Tableau Public and created three main visualizat
 These were combined into a single dashboard to display spending habits visually.
 ![Tableau Dashboard](images/tableau_dashboard.png)
 Dashboard Link: https://public.tableau.com/views/PersonalBudgetAnalysisDashboard/PersonalBudgetDashboardExcelSQLTableau?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+Tools Used:
+- Excel – data cleaning, formatting, and Power Query (unpivoting)
+- SQLite + DB Browser – database creation, CSV import, SQL queries
+- SQL – grouping, aggregations, CTEs
+- Tableau Public – dashboards and visual analytics
+- GitHub – documentation and version control
 
 Files Included:
 BudgetProject.xlsx – Excel workbook containing cleaned data
